@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>REACT JS SINIFLARIN KULLANIMI</title>
+    <link rel="stylesheet" href="style.css">
+  <style> body{
+    background-image:url("images/bg.png");           
+    font-family:'Century Gothic';
+   
+}
+#genel{
+    width:960px;
+    margin:auto;
+    margin-top:100px;
+    padding:10px;
+    border:5px solid #00909e;
+    background-color:rgb(255, 255, 255);
+}  </style>
+</head>
+<body>
+    
+  <div id="genel">
+        <h1>21430070050-METİN KEPENEK-REACT JS SINIFLARIN KULLANIMI</h1>
+        <h2> CLASS COMPENENT </h2>
+        <p> <a href="#"><img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png " alt="Örnek Resim" /></a> </p>
+        <p> Bir React bileşeni oluştururken, bileşenin adı büyük harfle başlamak zorunludur.
+Bir React bileşen sınıfı tanımlamak için sınıfınızın React.Component.
+Yöntem render(), sınıf bileşeninde tanımlanmalıdır. Diğer React.Componentyöntemler isteğe bağlıdır constructor() componentDidMount(), vb.
+        </p>
+        <h2>Class Component Kodumuz</h2>
+        <p>Koddaki amacımız sınıf bileşenini kullanarak arttır azalt isminde iki buton oluşturarak arttıra bastığımızda sayacın artması, azalta bastığımızda sayacın azalmasıdır.</p>
+        <p><img src="kod-tamami.jpg" alt="Örnek Resim"/>  </p>
+        <h2> Kodumuzun Ekran Çıktısı</h2>
+        <p>  <img src="cikti.jpg" alt="Örnek Resim"/>    </p>
+        <h2>Class Component Başlıca Kodları</h2>
+        <h3> render() ne anlama gelir? </h3>
+        <p> <img src="render.jpeg" alt="Örnek Resim"/> </p>
+        <p> React elementleri immutable(değişmez)'dır. 
+        Yani bir kez React elementi oluşturduktan sonra, o elementin alt elemanlarını veya özelliklerini değiştiremezsiniz.
+        Bu nedenle element, bütün bir videonun tek bir karesi gibidir, arayüzün belirli bir andaki görüntüsünü temsil eder.
+        </p>
+        <h3>
+         props ne anlama gelir? 
+        </h3>
+        <p><img src="props.jpeg" alt="Örnek Resim"/> </p>
+        <p>
+           React, kullanıcı tanımlı bir componenti temsil eden bir element görürse, 
+           JSX attributelerini tek bir obje olarak bu componente aktarır.
+           Bu objeye props diyoruz. this.propsname  propsa erişmek için kullanılır .
+        </p>
+        <h3>
+        super() ne anlama gelir?
+        </h3>
+        <p><img src="super.JPG" alt="Örnek Resim"/></p>
+        <p>Üst sınıfının yapıcısını çağırmak için kullanılır.
+        Bu, ebeveyn sınıfının bazı değişkenlerine erişmemiz gerektiğinde gereklidir.
+          </p>
+ 
+        <h3>
+            state ne anlama gelir?
+        </h3>
+        <p> <img src="state.jpeg" alt="Örnek Resim"/></p>
+        <p> JavaScript'te bir değer saklayacağımız zaman nasıl ki değişken oluşturmak için var-let-const tanımlamalarından yararlanıyorsak, 
+        React componentlerinde de değer saklamak için state'ten yararlanırız.
+        </p>
+        <h3>
+          constructor ne anlama gelir ?
+          </h3>
+        <p><img src="constructor.JPG" alt="Örnek Resim"/></p>
+          <p>Yapıcı, bir sınıftaki bir nesnenin durumunu başlatmak için kullanılan bir yöntemdir.
+          Bir sınıfta bir nesnenin oluşturulması sırasında otomatik olarak çağrılır.
+
+          Bir kurucu kavramı, React'te aynıdır. Bir React bileşenindeki kurucu, bileşen monte edilmeden önce çağrılır. Oluşturucuyu bir React bileşeni için uyguladığınızda, herhangi bir ifadeden önce super(props) yöntemini çağırmanız gerekir . 
+          super(props) yöntemini çağırmazsanız, this.props yapıcıda tanımsız olur ve hatalara yol açabilir.
+            </p>
+ 
+        <h3>
+            lifecyle ne anlama gelir ?
+        </h3>
+        <p><img src="lifecyle.jpeg" alt="Örnek Resim"/></p>
+        <p> DOM'da oluşturulan (render) her React bileşeni, oluşturma işleminden önce ve sonra bir dizi adımdan geçer.
+        Bir bileşen her oluşturma işleminde “Yaşam Döngüsü (lifecycle)” olarak adlandırılan temel adımlardan geçer.
+        </p>
+    </div>
+</body>
+</html>
+
+
+
+super()
